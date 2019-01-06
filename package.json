@@ -1,0 +1,23 @@
+{
+  "name": "dog_cards",
+  "version": "1.0.0",
+  "description": "Dog App that allows you to pull info from the database by clicking on a dogs image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "gulp sass"
+  },
+  "keywords": [
+    "dog"
+  ],
+  "author": "Marlon",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}
