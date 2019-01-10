@@ -11,17 +11,19 @@ body {
 .breeds-section {
     padding: 20px;
     width: 100%;
+    
     h1 {
         width: 100%;
         padding: 10px 0 10px 0;
     }
 }
 
-.breeds-fixed-container {
+
+.breeds-fixed-carrousel-container {
     width: 100%;
-    position: relative;
     overflow: hidden;
-    // overflow-x: scroll;
+    position: relative;
+    // background: blue;
     .arrow {
         display: block;
         cursor: pointer;
@@ -45,19 +47,20 @@ body {
 }
 
 
-.breeds {
+.breeds-carrousel {
     display: inline-flex;
-    background: blue;
-    // position: relative;
-    // right: 50%;
-    .breed {
-        width: 300px;
-        margin: 0px 10px 0px 10px;
+    position: relative;
+    // background: yellow;
+    .single-breed-container {
+        width: 500px;
+        margin: 10px;
+        border-radius: 10px;
+        overflow: hidden;
         &:first-child {
-            margin-left: 0px;
+            margin-left: 0;
         }
         &:last-child {
-            margin-right: 0px;
+            margin-right: 0;
         }
     }
     img { 

@@ -13,11 +13,11 @@ body {
     width: 100%;
     padding: 10px 0 10px 0; }
 
-.breeds-fixed-container {
+.breeds-fixed-carrousel-container {
   width: 100%;
-  position: relative;
-  overflow: hidden; }
-  .breeds-fixed-container .arrow {
+  overflow: hidden;
+  position: relative; }
+  .breeds-fixed-carrousel-container .arrow {
     display: block;
     cursor: pointer;
     position: absolute;
@@ -30,27 +30,29 @@ body {
     text-align: center;
     padding-top: 7px;
     color: white; }
-  .breeds-fixed-container .left {
+  .breeds-fixed-carrousel-container .left {
     left: 10px; }
-  .breeds-fixed-container .right {
+  .breeds-fixed-carrousel-container .right {
     right: 10px; }
 
-.breeds {
+.breeds-carrousel {
   display: inline-flex;
-  background: blue; }
-  .breeds .breed {
-    width: 300px;
-    margin: 0px 10px 0px 10px; }
-    .breeds .breed:first-child {
-      margin-left: 0px; }
-    .breeds .breed:last-child {
-      margin-right: 0px; }
-  .breeds img {
+  position: relative; }
+  .breeds-carrousel .single-breed-container {
+    width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden; }
+    .breeds-carrousel .single-breed-container:first-child {
+      margin-left: 0; }
+    .breeds-carrousel .single-breed-container:last-child {
+      margin-right: 0; }
+  .breeds-carrousel img {
     width: 100%;
     display: block; }
-  .breeds .breed-name-container {
+  .breeds-carrousel .breed-name-container {
     padding: 20px;
     background: crimson; }
-    .breeds .breed-name-container h2 {
+    .breeds-carrousel .breed-name-container h2 {
       text-align: center;
       color: white; }
